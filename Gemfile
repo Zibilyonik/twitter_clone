@@ -30,6 +30,7 @@ gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'gravatar-ultimate', '~> 2.0'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
