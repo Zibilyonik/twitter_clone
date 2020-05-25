@@ -21,12 +21,17 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'bulma-rails', '~> 0.8.0'
+gem 'xmlrpc'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'gravatar-ultimate', '~> 2.0'
+gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -40,6 +45,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors', '~> 2.7'
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do
