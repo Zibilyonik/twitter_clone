@@ -155,7 +155,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.5)
-    puma (4.3.3)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-proxy (0.6.5)
@@ -240,7 +240,6 @@ GEM
       tzinfo (>= 1.0.0)
     warden (1.2.8)
       rack (>= 2.0.6)
-    wdm (0.1.1)
     web-console (4.0.2)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -278,7 +277,7 @@ DEPENDENCIES
   guard-livereload (~> 2.5, >= 2.5.2)
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3)
   sass-rails (>= 6)
   selenium-webdriver
@@ -288,7 +287,6 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
-  wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
