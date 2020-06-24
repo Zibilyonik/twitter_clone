@@ -92,7 +92,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubi (1.9.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
+    ffi (1.13.0)
     ffi (1.13.0-x64-mingw32)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -134,11 +136,15 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     minitest (5.14.1)
+    msgpack (1.3.3)
     msgpack (1.3.3-x64-mingw32)
     multi_json (1.14.1)
     nenv (0.3.0)
     nio4r (2.5.2)
+    nokogiri (1.11.0.rc2)
+      mini_portile2 (~> 2.5.0)
     nokogiri (1.11.0.rc2-x64-mingw32)
     notiffany (0.1.3)
       nenv (~> 0.1)
@@ -150,7 +156,7 @@ GEM
     public_suffix (4.0.5)
     puma (4.3.5)
       nio4r (~> 2.0)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -192,6 +198,8 @@ GEM
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -253,6 +261,7 @@ GEM
     zeitwerk (2.3.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -268,7 +277,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   nokogiri (= 1.11.0.rc2)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3.1)
   sass-rails (>= 6)
   selenium-webdriver
