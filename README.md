@@ -8,7 +8,7 @@ This project is a clone of Twitter that has some of the basic features of the or
 
 * Ruby version: 2.7.2
 
-* Rails 6.0.3.1
+* Rails 6.0.3.7
 
 * HTML / CSS / Sass
 
