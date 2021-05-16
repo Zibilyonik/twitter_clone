@@ -15,7 +15,7 @@ This project is a clone of Twitter that has some of the basic features of the or
 ## Getting Started
 You will need Ruby ver. 2.7.2 installed on your system, which you can do so by visiting https://www.ruby-lang.org/en/downloads/ and following the directions from there depending on your system.
 
-Once you have the correct version of Ruby, you can clone this repository by calling `git clone git@github.com:Zibilyonik/twitter_clone.git` command from your terminal.
+Once you have the correct version of Ruby, you can clone this repository by calling `git clone https://github.com/Zibilyonik/twitter_clone.git` command from your terminal.
 
 After that, make sure that you use `bundle:install` command to install all the required gems.
 
