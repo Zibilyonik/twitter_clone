@@ -1,6 +1,6 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Zibilyonik/twitter_clone) 
 
-# Private Events
+# Twitter Clone
 
 This project is a clone of Twitter that has some of the basic features of the original Twitter platform. It is created to practice authorisation, association and the RESTful MVC creation.
 
