@@ -6,14 +6,14 @@ This project is a clone of Twitter that has some of the basic features of the or
 
 ## Built With
 
-* Ruby version: 2.7.1
+* Ruby version: 2.7.2
 
 * Rails 6.0.3.1
 
 * HTML / CSS / Sass
 
 ## Getting Started
-You will need Ruby ver. 2.7.1 installed on your system, which you can do so by visiting https://www.ruby-lang.org/en/downloads/ and following the directions from there depending on your system.
+You will need Ruby ver. 2.7.2 installed on your system, which you can do so by visiting https://www.ruby-lang.org/en/downloads/ and following the directions from there depending on your system.
 
 Once you have the correct version of Ruby, you can clone this repository by calling `git clone git@github.com:Zibilyonik/twitter_clone.git` command from your terminal.
 
